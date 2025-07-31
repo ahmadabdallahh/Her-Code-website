@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join Us - Her Code | انضمي إلينا</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+    <link rel="shortcut icon" href="../Image/logo-img.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div id="loadingScreen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-text">
+                    <span class="her">HER</span>
+                    <span class="code">CODE</span>
+                </div>
+                <div class="logo-icon">
+                    <i class="fas fa-cat"></i>
+                    <i class="fas fa-heart heart-icon"></i>
+                </div>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <p class="loading-text">جاري التحميل...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-text">
+                    <span class="her">HER</span>
+                    <span class="code">CODE</span>
+                </div>
+                <div class="logo-icon">
+                    <i class="fas fa-cat"></i>
+                    <i class="fas fa-heart heart-icon"></i>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../Home/index.html" class="nav-link">الرئيسية</a>
+                </li>
+                <li class="nav-item"><a href="../About/about.html" class="nav-link">من نحن</a></li>
+                <li class="nav-item">
+                    <a href="../Program/our-program.html" class="nav-link">برنامجنا</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../JoinUs/join-us.html" class="nav-link">انضمي إلينا</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../Contact/contact.html" class="nav-link">اتصل بنا</a>
+                </li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-word title-word-1">انضمي</span>
+                <span class="title-word title-word-2">إلينا</span>
+            </h1>
+            <p class="hero-subtitle">كوني جزء من مستقبل التكنولوجيا</p>
+            <div class="hero-buttons">
+                <button class="cta-button volunteer-btn" onclick="scrollToSection('volunteer')">
+                    <i class="fas fa-hands-helping"></i>
+                    انضمي كمتطوعة
+                </button>
+                <button class="cta-button student-btn" onclick="scrollToSection('student')">
+                    <i class="fas fa-graduation-cap"></i>
+                    سجلي كطالبة
+                </button>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="particles"></div>
+        </div>
+    </section>
+
+    <!-- Volunteer Section -->
+    <section id="volunteer" class="volunteer-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-hands-helping"></i>
+                    كـ متطوعة
+                </h2>
+                <p class="section-description">
+                    لو حابة تكوني جزء من مبادرة قوية ومؤثرة، بنرحب بكل الشباب والبنات من
+                    كل المحافظات للانضمام لفريق المتطوعين في:
+                </p>
+            </div>
+
+            <div class="volunteer-areas">
+                <div class="area-item" data-area="hr">
+                    <i class="fas fa-users"></i>
+                    <h3>الموارد البشرية</h3>
+                    <p>إدارة الفريق والمتطوعين</p>
+                </div>
+                <div class="area-item" data-area="pr">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>العلاقات العامة والتسويق</h3>
+                    <p>التواصل مع المجتمع والشركاء</p>
+                </div>
+                <div class="area-item" data-area="tech">
+                    <i class="fas fa-code"></i>
+                    <h3>التقنية والموقع</h3>
+                    <p>تطوير المواقع والتطبيقات</p>
+                </div>
+                <div class="area-item" data-area="events">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>الفعاليات والمحتوى</h3>
+                    <p>تنظيم الفعاليات وإنتاج المحتوى</p>
+                </div>
+                <div class="area-item" data-area="mentoring">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>المتابعة والتوجيه</h3>
+                    <p>دعم وتوجيه الطالبات</p>
+                </div>
+            </div>
+
+            <div class="volunteer-benefits">
+                <h3>مميزات التطوع:</h3>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>شهادة خبرة</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-crown"></i>
+                        <span>تنمية مهارات قيادية</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-network-wired"></i>
+                        <span>بناء شبكة علاقات مهنية</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-star"></i>
+                        <span>المشاركة في فعاليات حصرية</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="volunteer-cta">
+                <button class="cta-button volunteer-link-btn">
+                    <i class="fas fa-external-link-alt"></i>
+                    <a href="https://forms.gle/1234567890" target="_blank"
+                        style="text-decoration: none; color: inherit;">لينك التطوع</a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Section -->
+    <section id="student" class="student-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-graduation-cap"></i>
+                    ك طالبة
+                </h2>
+                <p class="section-description">
+                    لو إنتي بنت من سن 11 لـ 17 سنة وعندك فضول تجاه التكنولوجيا، في Her
+                    Code معمولة ليكي! مش لازم يكون عندك خبرة، المهم إنك تكوني حابة
+                    تتعلمي.
+                </p>
+            </div>
+
+            <div class="student-info">
+                <div class="info-card schedule-card">
+                    <i class="fas fa-calendar"></i>
+                    <h3>مواعيد البرنامج</h3>
+                    <p>تعرفي على الجدول الزمني للدورات</p>
+                    <button class="info-btn" onclick="showSchedule()">
+                        <i class="fas fa-clock"></i>
+                        عرض المواعيد
+                    </button>
+                </div>
+                <div class="info-card location-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>أماكن التدريب</h3>
+                    <p>اكتشفي مراكز التدريب القريبة منك</p>
+                    <button class="info-btn" onclick="showLocations()">
+                        <i class="fas fa-search-location"></i>
+                        عرض الأماكن
+                    </button>
+                </div>
+            </div>
+
+            <div class="student-cta">
+                <button class="cta-button student-register-btn" onclick="openStudentModal()">
+                    <i class="fas fa-user-plus"></i>
+                    <a href="https://forms.gle/1234567890" target="_blank"
+                        style="text-decoration: none; color: inherit;">سجلي كطالبة</a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="social" class="social-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-share-alt"></i>
+                    تابعينا على وسائل التواصل
+                </h2>
+                <p class="section-description">
+                    تابعي صفحاتنا للتعرف على آخر الأخبار والفعاليات والمواعيد المهمة
+                </p>
+            </div>
+
+            <div class="social-buttons">
+                <a href="#" class="social-btn instagram-btn" onclick="openSocial('instagram')">
+                    <i class="fab fa-instagram"></i>
+                    <span>انستجرام</span>
+                </a>
+                <a href="#" class="social-btn facebook-btn" onclick="openSocial('facebook')">
+                    <i class="fab fa-facebook"></i>
+                    <span>فيسبوك</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notification Container -->
+    <div id="notificationContainer" class="notification-container"></div>
+
+    <!-- Cursor Trail -->
+    <div id="cursorTrail"></div>
+
+    <!-- Scroll Progress -->
+    <div id="scrollProgress" class="scroll-progress"></div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
